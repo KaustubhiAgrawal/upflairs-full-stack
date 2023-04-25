@@ -1,0 +1,105 @@
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+    --titlefont:'Sacramenta',cursive;
+    --midfont:'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+    text-align: center;
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 150px;
+
+}
+.heading {
+    font-family: var(--myTitleFont);
+    margin: 0;
+    font-size: 4rem;
+}
+.bio {
+    font-family: var(--titlefont);
+    margin: 0;
+    font-size: 1rem;  /* 1em = 16px */
+    padding-bottom: 20px;
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 400px;
+    width: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -400px;
+    width: 300px;
+}
+.mountain{
+    width: 500px;
+}
+img{
+    margin-bottom:-5px;
+}
+/*mid container*/
+.mid-container{
+    display: block;
+    width: 65%;
+    margin: auto;
+}
+.profileimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: 100px;
+}
+.hello{
+    font-family: var(--midfont);
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 50px
+}
+.para{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    line-height: 2;
+    font-size: 1rem;
+}
+.skills{
+    font-family: var(--midfont);
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+hr{
+    border: dotted 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: none;
+    width: 10%;
+    opacity: 60%;
+}
+.imagee{
+    width: 150px;
+}
+.mainhead{
+    display: inline;
+}
+.subhead{
+    display: block;
+}
