@@ -1,6 +1,8 @@
 :root{
     --primaryColor: #577D86;
+    --primaryaccentColor: #63929d;
     --backgroundColor: #B9EDDD;
+    --foregroundColor: #daf4ec;
     --myTitleFont:'Dancing Script', cursive;
     --fontDefaultTextFont: 'Lato', sans-serif;
     --fontDefaultHeading: 'Montserrat', sans-serif; 
@@ -12,6 +14,8 @@ body{
     margin: 0px;
     color: var(--primaryColor);
     text-align: center;
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
 }
 
 .top-section{
@@ -51,10 +55,19 @@ body{
 img{
     margin-bottom:-5px;
 }
+
+hr{
+    border: dotted 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: none;
+    width: 10%;
+    opacity: 60%;
+}
 /*mid container*/
 .mid-container{
     display: block;
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 .profileimg{
@@ -76,7 +89,7 @@ img{
     width: 50%;
     margin: auto;
     padding: auto;
-    line-height: 2;
+    /* line-height: 2; */
     font-size: 1rem;
 }
 .skills{
@@ -84,22 +97,54 @@ img{
     font-weight: normal;
     font-size: 3rem;
     margin-top: 100px;
-}
-
-hr{
-    border: dotted 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-bottom: none;
-    width: 10%;
-    opacity: 60%;
+    margin-bottom: 70px;
 }
 .imagee{
     width: 150px;
 }
-.mainhead{
-    display: inline;
+.skilltype{
+    text-align: left;
 }
-.subhead{
-    display: block;
+.img1{
+    float: left;
+    margin-right: 40px;
+
+}
+.img2{
+    float: right;
+    margin-left: 40px;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+    background-color: var(--primaryColor);
+    font-size: 1.5rem;
+    padding: 7px 15px;
+    border-radius: 15px;
+    margin: 50px auto;
+    font-family: var(--fontDefaultHeading);
+    border: none;
+}
+.contact:hover{
+    background-color: var(--primaryaccentColor);
+    cursor: pointer;
+}
+/*bottom-section*/
+.bottom-section{
+    background-color: var(--primaryColor);
+    color: var(--backgroundColor);
+    margin: 0px auto;
+    height: 200px;
+    justify-content: center;
+}
+.social-link{
+    margin: 0px 40px;
+    color: var(--backgroundColor);
+    text-decoration: none;
+}
+.social{
+    padding: 50px 0px 20px 0px;
+}
+.social-link:hover{
+    color: var(--foregroundColor);
 }
