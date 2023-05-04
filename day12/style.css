@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(66, 84, 84);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+   
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.red{
+    background-color: red;
+}
+.brown{
+    background-color: brown;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.teal{
+    background-color: teal;
+}
+
+/* @media screen and (min-width:1000px){
+    body{
+        background-color: rgb(239, 215, 79);
+    }
+}
+@media screen and (min-width:700px) and  (max-width:999px){
+    body{
+        background-color: burlywood;
+    }
+}
+@media screen and (max-width:500px){
+    div{
+        display: block;
+    }
+} */
+
+@media screen and (min-width:320px){
+    .red{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:481px){
+    .red{
+        background-color: orange;
+    }
+}
+@media screen and (min-width:769px){ 
+    .red{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:1025px){
+    .red{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:1201px){
+    .red{
+        background-color: red;
+    }
+}
+@media screen and (prefers-color-scheme : dark){
+    body{
+        background-color: blanchedalmond;
+    }
+}
+@media (orientation: landscape) {
+    body{
+        background-color: black;
+    }
+}
+@media (orientation: portrait) {
+    body{
+        background-color: cadetblue;
+    }
+}
